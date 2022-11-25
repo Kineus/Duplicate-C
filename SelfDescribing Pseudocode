@@ -1,0 +1,14 @@
+Open the file
+    check to be sure the file exist while the file exists continue to the next step
+        Assign the contents in the file to the variable each line
+            convert the string in eachline and store in the array 'number' create a count function
+                calculate the length of the number of characters in the array number excluding newline character
+                    loop through the length of number while incrementing i
+                        assign a new variable currentChar to store the character in each position
+                            check if currentElement is the same as the first argument 'element' received then we increment ou counter
+                                calculate the length of the number of characters in the array excluding newline character
+                                    loop through the length of current number while incrementing i
+                                        assign a new variable currentChar to store the character in each position
+                                            call our count function to count and check the occurence of the character in the position of the curent loop if charCountis the same as the argument currentNumber then the number is self describing else it is not Create a loop to loop through each line to perform the 'isSelfDescribing' function
+                                                Then check if the number is self describing and print self describing else print is not self describing
+                                                    close file when done
